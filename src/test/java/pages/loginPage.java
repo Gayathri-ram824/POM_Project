@@ -37,5 +37,6 @@ public class loginPage {
             enterUsername(user);
             enterPassword(pass);
             clickLogin();
+            System.out.println("Login successful for user: " + user);
         }
 }
