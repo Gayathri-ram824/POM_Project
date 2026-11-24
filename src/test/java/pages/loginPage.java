@@ -21,6 +21,7 @@ public class loginPage {
 
         public void enterUsername(String user) {
           //driver.findElement(username).sendKeys(user);
+
             driverFactory.initializeDriver().findElement(username).sendKeys(user);
         }
 
